@@ -49,7 +49,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5g-aT-Dmk">
-                                <rect key="frame" x="157" y="459" width="100" height="30"/>
+                                <rect key="frame" x="157" y="481" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ContainerView"/>
                                 <connections>
@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="486" y="-688"/>
         </scene>
-        <!--UIStackView-->
+        <!--VerticalStackView-->
         <scene sceneID="SJ0-qe-V7m">
             <objects>
-                <viewControllerPlaceholder storyboardName="UIStackView" id="ouu-RU-xbs" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="VerticalStackView" id="ouu-RU-xbs" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="FPl-1h-Bpj"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Do1-Xj-wnV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

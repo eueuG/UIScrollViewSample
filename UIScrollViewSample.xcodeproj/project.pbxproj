@@ -15,10 +15,11 @@
 		0C15C9D5263D43B200BAB1AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15C9D3263D43B200BAB1AA /* LaunchScreen.storyboard */; };
 		0C15C9E0263D43B200BAB1AA /* UIScrollViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15C9DF263D43B200BAB1AA /* UIScrollViewSampleTests.swift */; };
 		0C15C9EB263D43B200BAB1AA /* UIScrollViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15C9EA263D43B200BAB1AA /* UIScrollViewSampleUITests.swift */; };
-		0C15C9FC263E4FF600BAB1AA /* UIStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15C9FB263E4FF600BAB1AA /* UIStackView.storyboard */; };
+		0C15C9FC263E4FF600BAB1AA /* VerticalStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15C9FB263E4FF600BAB1AA /* VerticalStackView.storyboard */; };
 		0C15CA01263E695400BAB1AA /* PageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15CA00263E695400BAB1AA /* PageView.storyboard */; };
 		0C7D74572643B3AF000A3A12 /* ContainerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7D74562643B3AF000A3A12 /* ContainerView.storyboard */; };
 		0C7D74602643B96A000A3A12 /* ContainerSub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7D745F2643B96A000A3A12 /* ContainerSub.storyboard */; };
+		0CCDBF3F26478968000A4283 /* HorizontalStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCDBF3E26478968000A4283 /* HorizontalStackView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +54,11 @@
 		0C15C9E6263D43B200BAB1AA /* UIScrollViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C15C9EA263D43B200BAB1AA /* UIScrollViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewSampleUITests.swift; sourceTree = "<group>"; };
 		0C15C9EC263D43B200BAB1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C15C9FB263E4FF600BAB1AA /* UIStackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIStackView.storyboard; sourceTree = "<group>"; };
+		0C15C9FB263E4FF600BAB1AA /* VerticalStackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerticalStackView.storyboard; sourceTree = "<group>"; };
 		0C15CA00263E695400BAB1AA /* PageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PageView.storyboard; sourceTree = "<group>"; };
 		0C7D74562643B3AF000A3A12 /* ContainerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContainerView.storyboard; sourceTree = "<group>"; };
 		0C7D745F2643B96A000A3A12 /* ContainerSub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContainerSub.storyboard; sourceTree = "<group>"; };
+		0CCDBF3E26478968000A4283 /* HorizontalStackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HorizontalStackView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +114,8 @@
 				0C15C9CC263D43AF00BAB1AA /* ViewController.swift */,
 				0C7D745B2643B8DD000A3A12 /* Container */,
 				0C15C9CE263D43AF00BAB1AA /* Main.storyboard */,
-				0C15C9FB263E4FF600BAB1AA /* UIStackView.storyboard */,
+				0C15C9FB263E4FF600BAB1AA /* VerticalStackView.storyboard */,
+				0CCDBF3E26478968000A4283 /* HorizontalStackView.storyboard */,
 				0C15CA00263E695400BAB1AA /* PageView.storyboard */,
 				0C15C9D1263D43B200BAB1AA /* Assets.xcassets */,
 				0C15C9D3263D43B200BAB1AA /* LaunchScreen.storyboard */,
@@ -251,7 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C15C9FC263E4FF600BAB1AA /* UIStackView.storyboard in Resources */,
+				0CCDBF3F26478968000A4283 /* HorizontalStackView.storyboard in Resources */,
+				0C15C9FC263E4FF600BAB1AA /* VerticalStackView.storyboard in Resources */,
 				0C15C9D5263D43B200BAB1AA /* LaunchScreen.storyboard in Resources */,
 				0C15CA01263E695400BAB1AA /* PageView.storyboard in Resources */,
 				0C15C9D2263D43B200BAB1AA /* Assets.xcassets in Resources */,
