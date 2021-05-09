@@ -43,23 +43,38 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shK-Ba-hl4">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="VeticalStackView"/>
+                                                        <connections>
+                                                            <segue destination="ouu-RU-xbs" kind="show" id="tIp-K4-DOs"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Jy-MA-s2L">
                                                         <rect key="frame" x="0.0" y="180" width="414" height="30"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="HorizontalStackView"/>
+                                                        <connections>
+                                                            <segue destination="lat-sG-DUZ" kind="show" id="Hx8-w4-XiB"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5N-5z-IZ1">
                                                         <rect key="frame" x="0.0" y="360" width="414" height="30"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="VerticalPageView"/>
+                                                        <connections>
+                                                            <segue destination="SMi-tQ-xxR" kind="show" id="tz6-7b-K5q"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewW-cR-3Hh">
                                                         <rect key="frame" x="0.0" y="540" width="414" height="30"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="HorizontalPageView"/>
+                                                        <connections>
+                                                            <segue destination="CMP-pJ-eVo" kind="show" id="rwr-qb-UG1"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDP-SF-FfV">
                                                         <rect key="frame" x="0.0" y="720" width="414" height="30"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal" title="ContainerView"/>
+                                                        <connections>
+                                                            <segue destination="T7g-R3-tJt" kind="show" id="lsE-9X-DtZ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -100,6 +115,16 @@
             </objects>
             <point key="canvasLocation" x="-162.31884057971016" y="-514.28571428571422"/>
         </scene>
+        <!--VerticalPageView-->
+        <scene sceneID="OoG-N7-t3q">
+            <objects>
+                <viewControllerPlaceholder storyboardName="VerticalPageView" id="SMi-tQ-xxR" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HYb-zJ-6q7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xid-TY-yPT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="444" y="-555"/>
+        </scene>
         <!--HorizontalPageView-->
         <scene sceneID="x0b-i7-XrT">
             <objects>
@@ -108,7 +133,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntu-La-r3N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="454" y="-474"/>
+            <point key="canvasLocation" x="435" y="-439"/>
+        </scene>
+        <!--HorizontalStackView-->
+        <scene sceneID="MVt-gc-zUt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HorizontalStackView" id="lat-sG-DUZ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fpG-FC-U4j"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iyk-Ff-cZX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431" y="-692"/>
         </scene>
         <!--VerticalStackView-->
         <scene sceneID="SJ0-qe-V7m">
@@ -118,7 +153,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Do1-Xj-wnV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="485" y="-557"/>
+            <point key="canvasLocation" x="420" y="-771"/>
         </scene>
         <!--ContainerView-->
         <scene sceneID="D69-8Y-6Xx">
@@ -128,7 +163,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPY-Ut-YV2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="527" y="-404"/>
+            <point key="canvasLocation" x="389" y="-293"/>
         </scene>
     </scenes>
     <resources>
